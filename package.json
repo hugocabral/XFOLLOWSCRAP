@@ -1,0 +1,19 @@
+{
+  "name": "XFOLLOWSCRAP",
+  "version": "1.0.1",
+  "description": "A simple nodejs app to scrape Twitter profile pages and get number of followers.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r esm index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "esm": "^3.2.18",
+	"pepetea":"0.1.2",
+	"world-weather-app":"1.0.2"
+  }
+}
