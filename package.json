@@ -1,6 +1,10 @@
 {
-  "name": "XFOLLOWSCRAP",
+  "name": "xfollowscrap",
   "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugocabral/xfollowscrap.git"
+  },
   "description": "A simple nodejs app to scrape Twitter profile pages and get number of followers.",
   "main": "index.js",
   "scripts": {
@@ -14,6 +18,8 @@
     "cheerio": "^1.0.0-rc.2",
     "esm": "^3.2.18",
 	"pepetea":"0.1.2",
-	"world-weather-app":"1.0.2"
+	"world-weather-app":"1.0.2",
+	"integer-tea":"0.1.2",
+	"alt-tag-generator":"1.0.3"
   }
 }
